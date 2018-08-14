@@ -1,7 +1,6 @@
-ARG NEXUS_VERSION=3.8.0
+ARG NEXUS_VERSION=3.13.0
 
 FROM maven:3-jdk-8-alpine AS build
-ARG NEXUS_VERSION=3.8.0
 ARG NEXUS_BUILD=02
 
 COPY . /nexus-repository-composer/
